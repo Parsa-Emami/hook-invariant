@@ -1,0 +1,20 @@
+{
+  "initial": "created",
+  "transitions": {
+    "created": [
+      "paid"
+    ]
+  },
+  "deliveries": [
+    {
+      "event_id": "e1",
+      "accepted": true,
+      "state": "paid"
+    },
+    {
+      "event_id": "e1",
+      "accepted": false,
+      "state": "paid"
+    }
+  ]
+}
